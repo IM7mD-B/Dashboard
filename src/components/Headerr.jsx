@@ -4,7 +4,7 @@ import { IoReorderThreeOutline } from "react-icons/io5";
 
 import Image1 from "../assets/images/avatar.png";
 
-export default function Header({onToggle}) {
+export default function Header({ onToggle }) {
   return (
     <div className=" bg-white flex flex-row py-3 px-2 w-full justify-between ">
       <div className=" flex flex-row items-center ">
