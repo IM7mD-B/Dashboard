@@ -1,9 +1,8 @@
 import WelcomeImage from '../../assets/images/welcome.png'
 import Avatar from "../../assets/images/avatar.png"
 export default function Welcome() {
-
     return (
-        <div className="w-full bg-white my-4 shadow-lg rounded-2xl">
+        <div className="w-full bg-white mt-4 shadow-lg rounded-2xl flex flex-col h-full ">
 
             <div className=" bg-stone-200 justify-between px-3 flex rounded-t-sm pt-3 pb-1 ">
                 <div className=''>
@@ -27,7 +26,7 @@ export default function Welcome() {
                 </div>
             </div>
 
-            <div className='flex justify-end pt-3 pb-11 pr-3'>
+            <div className='flex justify-end  pt-3 pb-3 pr-3'>
 
                 <a>
                     <button className='bg-blue-600 text-white rounded-sm text-[10px] 
